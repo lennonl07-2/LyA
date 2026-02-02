@@ -1,0 +1,21 @@
+{
+  "name": "Nuestro Tiempo Juntos",
+  "short_name": "Te Amo",
+  "description": "Para poder ver el tiempo que llevamos juntos de manera exacta y obsesiva",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#F08080",
+  "icons": [
+    {
+      "src": "helloK.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    },
+    {
+      "src": "helloK.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ]
+}
