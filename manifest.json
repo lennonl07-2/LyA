@@ -1,21 +1,22 @@
 {
-  "name": "Nuestro Tiempo Juntos",
+  "name": "Nuestro Tiempo Juntos ❤️",
   "short_name": "Te Amo",
-  "description": "Para poder ver el tiempo que llevamos juntos de manera exacta y obsesiva",
-  "start_url": "index.html",
+  "description": "Contador exacto de nuestro tiempo juntos.",
+  "start_url": "./index.html",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#f4f1ea",
-  "theme_color": "#F08080",
+  "theme_color": "#FC5F67",
   "icons": [
     {
-      "src": "helloK.jpg",
+      "src": "5.jpg",
       "sizes": "192x192",
-      "type": "image/jpg"
+      "type": "image/jpeg"
     },
     {
-      "src": "helloK.jpg",
+      "src": "5.jpg",
       "sizes": "512x512",
-      "type": "image/jpg"
+      "type": "image/jpeg"
     }
   ]
 }
