@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-HTML
-<!DOCTYPE html>
-<html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -19,22 +15,12 @@ HTML
     <meta property="og:url" content="https://lya02.vercel.app/">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Te amo ❤️">
-    <meta name="twitter:description" content="Nuestro contador de tiempo juntos.">
     <meta name="twitter:image" content="https://lya02.vercel.app/5.jpg">
 
     <link rel="manifest" href="manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Te Amo">
-    <link rel="apple-touch-icon" href="5.jpg">
-
-    <link rel="manifest" href="manifest.json">
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Te Amo">
-
     <link rel="apple-touch-icon" href="5.jpg">
 
     <style>
@@ -144,13 +130,8 @@ HTML
             flex-grow: 0;
         }
 
-        .polaroid:nth-child(even) {
-            transform: rotate(2deg);
-        }
-
-        .polaroid:nth-child(odd) {
-            transform: rotate(-2deg);
-        }
+        .polaroid:nth-child(even) { transform: rotate(2deg); }
+        .polaroid:nth-child(odd) { transform: rotate(-2deg); }
 
         .polaroid:hover {
             transform: scale(1.05) rotate(0deg) !important;
@@ -166,36 +147,17 @@ HTML
         }
 
         @media (max-width: 480px) {
-            header {
-                padding-top: 50px;
-            }
-
-            h1 {
-                font-size: 2.2rem;
-            }
-
-            .polaroid {
-                width: 44%;
-            }
-
-            .contador-wrapper {
-                gap: 10px;
-                padding: 10px 15px;
-            }
-
-            .num {
-                font-size: 1.2rem;
-            }
-
-            .personaje {
-                width: 80px;
-            }
+            header { padding-top: 50px; }
+            h1 { font-size: 2.2rem; }
+            .polaroid { width: 44%; }
+            .contador-wrapper { gap: 10px; padding: 10px 15px; }
+            .num { font-size: 1.2rem; }
+            .personaje { width: 80px; }
         }
     </style>
 </head>
 
 <body>
-
     <header>
         <h1>Te amo ❤️</h1>
         <div class="contador-wrapper">
@@ -234,13 +196,11 @@ HTML
             galeria.innerHTML += `
             <div class="polaroid">
                 <img src="${i}.jpg" alt="Momento ${i}" loading="lazy">
-            </div>
-        `;
+            </div>`;
         }
 
         setInterval(update, 1000);
         update();
     </script>
 </body>
-
 </html>
